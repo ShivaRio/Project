@@ -34,15 +34,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   return (
     <View style={styles.sectionContainer}>
      
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    
     </View>
   );
 }
